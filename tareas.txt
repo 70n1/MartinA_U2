@@ -1,0 +1,21 @@
+Observación inicial: Según se mire en las transparencias o en el pdf el contenido de la práctica difiere. He intentado que se adapte a ambos.
+
+(X) Ejercicio: Uso de FragmentTabHost (importante) 
+(X) Practica: Creación de aplicación Asteroides (importante) 
+(X) Practica: Recursos alternativos en Asteroides 
+(X) Ejercicio: Traducción de Asteroides 
+(X) Practica: Creando un Layout para tabletas en Asteroides (en la transparecia indicaba ejercicio de layout para adaptar a horizontal y tablets)
+Se ha creado un layout para horizontal, y con parámetros de dimensiones de margenes, dependientes del tamaño de pantalla(dimens.xml) se ha adaptado también para tablets (se ha indicado un mayor margen para tabletas).
+(X) Practica: Creando un estilo en Asteroides 
+Se ha creado un estilo para los botones (basado en el Base.Widget.AppCompat.Button.Colored, cambiando el color de botón)
+(X) Practica: Creando un tema en Asteroides
+He cambiado sólo la fuente (el color de la fuente que había propuesto en el libro daba problemas de visualización con el tema por defecto)
+(X) Ejercicio: Un botón con gráficos personalizados 
+(_) Ejercicio: Acceder y modificar las propiedades de las vistas 
+(_) Tarea: Creación de una lengüeta que solo visualice la calculadora
+
+Extras: 
+(_) Tarea: Programación de la calculadora para que convierta de € en ₧ 
+(_) Tarea: Verificación de entradas incorrectas en calculadora 
+(_) Tarea: Programación de la calculadora para que sume 
+(_) Otras mejoras propuestas que quieras añadir	
