@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="€"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/display_calculadora"
+        android:background="@android:color/white"
+        android:fontFamily="monospace"
+        android:textSize="36sp"
+        android:textColor="@android:color/black"
+        android:padding="15dp"
+        android:gravity="right" />
+
+    <Button
+        android:text="pasar a pesetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_pasar_moneda"
+        android:onClick="pulsado_boton_calculadora" />
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="1"
+                    android:id="@+id/button_calc_1"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="2"
+                    android:id="@+id/button_calc_2"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="3"
+                    android:id="@+id/button_calc_3"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora"  />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="4"
+                    android:id="@+id/button_calc_4"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora"  />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="5"
+                    android:id="@+id/button_calc_5"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora"  />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="6"
+                    android:id="@+id/button_calc_6"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora"  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="7"
+                    android:id="@+id/button_calc_7"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora"  />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="8"
+                    android:id="@+id/button_calc_8"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora"  />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="9"
+                    android:id="@+id/button_calc_9"
+                    android:layout_weight="1"
+                    android:onClick="pulsado_boton_calculadora"  />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/button_calc_0"
+                android:layout_weight="1"
+                android:onClick="pulsado_boton_calculadora"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/button_calc_mas"
+                android:layout_weight="1"
+                android:onClick="pulsado_boton_calculadora"  />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:id="@+id/button_calc_igual"
+                android:layout_weight="1"
+                android:onClick="pulsado_boton_calculadora"  />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:id="@+id/button_calc_c"
+                android:layout_weight="1"
+                android:onClick="pulsado_boton_calculadora"  />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

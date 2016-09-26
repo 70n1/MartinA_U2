@@ -11,11 +11,15 @@ Se ha creado un estilo para los botones (basado en el Base.Widget.AppCompat.Butt
 (X) Practica: Creando un tema en Asteroides
 He cambiado sólo la fuente (el color de la fuente que había propuesto en el libro daba problemas de visualización con el tema por defecto)
 (X) Ejercicio: Un botón con gráficos personalizados 
-(_) Ejercicio: Acceder y modificar las propiedades de las vistas 
-(_) Tarea: Creación de una lengüeta que solo visualice la calculadora
+(X) Ejercicio: Acceder y modificar las propiedades de las vistas 
+Se muestra un display en la calculadora que por programación va mostrando lo que se va introduciendo a través de los botones del interfaz creado y donde también se muestra los resultados
+En la vista del botón que hace que se pase a euros o a pesetas se modifica el texto cada vez que se pulsa.
+(X) Tarea: Creación de una lengüeta que solo visualice la calculadora
 
 Extras: 
-(_) Tarea: Programación de la calculadora para que convierta de € en ₧ 
-(_) Tarea: Verificación de entradas incorrectas en calculadora 
-(_) Tarea: Programación de la calculadora para que sume 
-(_) Otras mejoras propuestas que quieras añadir	
+(X) Tarea: Programación de la calculadora para que convierta de € en ₧ 
+(X) Tarea: Verificación de entradas incorrectas en calculadora
+No se producen entradas incorrectas ya que la entrada únicamente se realiza a través de botones.
+(X) Tarea: Programación de la calculadora para que sume 
+(X) Otras mejoras propuestas que quieras añadir	
+Se ha añadido un display en la calculadora para ver los números introducidos y los resultados.
