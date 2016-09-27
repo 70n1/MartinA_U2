@@ -1,5 +1,8 @@
 Observación inicial: Según se mire en las transparencias o en el pdf el contenido de la práctica difiere. He intentado que se adapte a ambos.
 
+El trabajo lo he realizado tanto desde mi puesto de trabajo como desde mi casa. Para la sincronización he utilizado GitHub. 
+Creo que sería interesante para el resto de alumnos aprender también la utilización de un sistema de versiones con Android Studio.
+
 (X) Ejercicio: Uso de FragmentTabHost (importante) 
 (X) Practica: Creación de aplicación Asteroides (importante) 
 (X) Practica: Recursos alternativos en Asteroides 
@@ -21,5 +24,6 @@ Extras:
 (X) Tarea: Verificación de entradas incorrectas en calculadora
 No se producen entradas incorrectas ya que la entrada únicamente se realiza a través de botones.
 (X) Tarea: Programación de la calculadora para que sume 
+El evento onclick de todos los botones llaman a una misma función, que dependiendo del nombre del view que lo llama, realiza una función u otra.
 (X) Otras mejoras propuestas que quieras añadir	
 Se ha añadido un display en la calculadora para ver los números introducidos y los resultados.
